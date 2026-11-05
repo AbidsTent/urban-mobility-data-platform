@@ -1,0 +1,53 @@
+# Python and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.yaml
+
+# Data: never commit downloaded TLC monthly files, derived tables, or local logs
+/data/**
+!/data/README.md
+/output/
+/outputs/
+/logs/
+/tmp/
+/temp/
+
+# Heavy local formats anywhere (unless explicitly reconsidered for tiny test fixtures)
+*.parquet
+*.delta
+*.duckdb
+*.sqlite
+*.sqlite3
+*.db
+*.pbix
+*.pbit
+*.zip
+
+# Spark / notebooks / IDE
+spark-warehouse/
+metastore_db/
+derby.log
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
