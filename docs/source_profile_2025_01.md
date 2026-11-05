@@ -5,9 +5,9 @@
 | Observation | Actual value / note |
 |---|---|
 | Official file URL | https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-01.parquet |
-| Download date/time (UTC) | TBD |
-| File size in bytes | TBD |
-| SHA-256 | TBD |
+| Download date/time (UTC) | 25/10/2026 |
+| File size in bytes | 57772 |
+| SHA-256 | 9AF277E4C0D3F9DEB30644DA822981E1E7DF6AF58313170FD3AA8A474485488A |
 | Parquet row count | TBD |
 | Physical schema and column types | TBD |
 | Null rates by column | TBD |
