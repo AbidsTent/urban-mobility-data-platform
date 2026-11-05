@@ -2,9 +2,9 @@
 
 **A production-oriented, batch data engineering portfolio project using public NYC yellow-taxi records.**
 
-> **Status: Phase P0 — Foundation (in progress).** This repository documents a planned system. Data pipelines, automated tests, dashboards, and performance improvements are **not yet implemented**. Status and claims will be updated as each milestone passes acceptance tests.
+> **Status: Phase P0 - Foundation (in progress).** This repository documents a planned system. Data pipelines, automated tests, dashboards, and performance improvements are **not yet implemented**. Status and claims will be updated as each milestone passes acceptance tests.
 
-## Why build this?
+## Purpose of Project?
 
 Public NYC Taxi & Limousine Commission (TLC) monthly Parquet files are useful for exploring genuine data engineering trade-offs: source changes, imperfect data, reliable ingestion, data-quality decisions, incremental updates and reproducible reporting.
 
