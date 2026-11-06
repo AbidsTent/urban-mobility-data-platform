@@ -8,7 +8,7 @@
 | Download date/time (UTC) | 25/10/2026 |
 | File size in bytes | 57772 |
 | SHA-256 | 9AF277E4C0D3F9DEB30644DA822981E1E7DF6AF58313170FD3AA8A474485488A |
-| Parquet row count | TBD |
+| Parquet row count | 3475226 |
 | Physical schema and column types | TBD |
 | Null rates by column | TBD |
 | Min/max pickup and dropoff timestamps | TBD |
