@@ -1,17 +1,34 @@
-# Development log
 
-This is a transparent account of completed work, measured results, limitations and next actions. Do not backfill achievements before they occur.
+## 2026-11-13 — Gold Dimensional Model and Analytics
 
-## 2026-11-05 — Initial repository scaffold prepared
+**Status:** January 2025 Medallion prototype implemented.
 
-**Phase:** P0. **State:** documentation and starter folders prepared locally; public GitHub publication not yet confirmed.
+### Completed
+- Bronze: 3,475,226 original records ingested into Delta.
+- Silver: 3,475,102 accepted; 124 quarantined.
+- Gold scope: 22 out-of-month records excluded and preserved.
+- dim_zone: 266 members, including an unknown member.
+- dim_date: 31 calendar dates.
+- fact_yellow_trip: 3,475,080 records.
+- agg_monthly_kpi: January reporting metrics.
+- agg_daily_pickup_zone: 7,289 date-zone groups.
 
-- Created README and proposed architecture; labeled all unbuilt components as planned.
-- Added official source references, phase roadmap, initial proposed ADR, source-profile template, and issue/PR workflows.
-- Added a `.gitignore` to keep raw data, local Delta tables, virtual environments and credentials out of the repository.
+### Verified results
+- Bronze-to-Gold record reconciliation difference: 0
+- Silver-to-Gold financial reconciliation difference: $0.00
+- Fact-to-daily-aggregate reconciliation difference: $0.00
+- Total recorded charges: $89,001,305.87
+- Total recorded fares: $59,362,208.68
 
-**Not done yet:** GitHub remote creation, initial push, data download, profiling, Spark/Delta setup, ingestion or automated tests.
+### Current limitations
+- Only January 2025 is implemented.
+- Pipeline uses full table overwrites.
+- No automated orchestration or incremental file tracking yet.
+- Quality rules are preliminary.
+- No CI-based pipeline tests yet.
 
-**Next:** Publish initial commit, open P0-02 issue, inspect TLC data dictionary, and download January 2025 locally.
-
-**Verification:** GitHub URL and commit hash should be recorded here after publication.
+### Next priorities
+1. Independent notebook execution and automated validation.
+2. Databricks Jobs orchestration and run monitoring.
+3. Safe rerun and file-version handling.
+4. Additional source month and portfolio documentation.
