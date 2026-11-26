@@ -81,7 +81,7 @@ See [full project specification](docs/PROJECT_SPEC.md), [phase roadmap](docs/roa
 4. Track development in [`docs/progress.md`](docs/progress.md) and GitHub issues/PRs.
 5. Source profiling results and executable setup commands will be added as implemented and verified.
 
-**No runnable pipeline has been published yet.** Instructions will be expanded with tested setup and commands in later phases.
+**The January 2025 pipeline is implemented and has been successfully executed in Databricks. See the notebooks and development log for verified results and current limitations.**
 
 ## Repository layout
 
