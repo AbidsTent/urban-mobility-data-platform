@@ -2,7 +2,15 @@
 
 **A production-oriented, batch data engineering portfolio project using public NYC yellow-taxi records.**
 
-> **Status: Phase P0 - Foundation (in progress).** This repository documents a planned system. Data pipelines, automated tests, dashboards, and performance improvements are **not yet implemented**. Status and claims will be updated as each milestone passes acceptance tests.
+
+> **Status: January 2025 batch pipeline operational.**
+> Implemented Bronze, Silver and Gold Delta tables,
+> dimensional data marts, Databricks Jobs orchestration,
+> reconciliation checks, SHA-256 source tracking and
+> conditional skipping of unchanged published files.
+>
+> **In progress:** Multi-month incremental publication,
+> failure recovery, automated CI tests and reporting.
 
 ## Purpose of Project?
 
